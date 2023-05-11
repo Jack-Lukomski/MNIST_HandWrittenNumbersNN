@@ -1,0 +1,3 @@
+[submodule "Libaries/NeuralC"]
+	path = Libaries/NeuralC
+	url = git@github.com:Jack-Lukomski/NeuralC.git
