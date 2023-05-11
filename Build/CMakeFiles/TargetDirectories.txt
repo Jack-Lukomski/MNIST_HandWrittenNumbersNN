@@ -20,8 +20,6 @@ C:/Users/jtluk/GitHub/MNIST_HandWrittenNumbersNN/Build/Libaries/NeuralC/Sources/
 C:/Users/jtluk/GitHub/MNIST_HandWrittenNumbersNN/Build/Libaries/NeuralC/Sources/Modules/LayerCreation/CMakeFiles/LayerCreation.dir
 C:/Users/jtluk/GitHub/MNIST_HandWrittenNumbersNN/Build/Libaries/NeuralC/Sources/Modules/LayerCreation/CMakeFiles/edit_cache.dir
 C:/Users/jtluk/GitHub/MNIST_HandWrittenNumbersNN/Build/Libaries/NeuralC/Sources/Modules/LayerCreation/CMakeFiles/rebuild_cache.dir
-C:/Users/jtluk/GitHub/MNIST_HandWrittenNumbersNN/Build/Libaries/NeuralC/Sources/ExampleMain/CMakeFiles/edit_cache.dir
-C:/Users/jtluk/GitHub/MNIST_HandWrittenNumbersNN/Build/Libaries/NeuralC/Sources/ExampleMain/CMakeFiles/rebuild_cache.dir
 C:/Users/jtluk/GitHub/MNIST_HandWrittenNumbersNN/Build/Sources/CMakeFiles/edit_cache.dir
 C:/Users/jtluk/GitHub/MNIST_HandWrittenNumbersNN/Build/Sources/CMakeFiles/rebuild_cache.dir
 C:/Users/jtluk/GitHub/MNIST_HandWrittenNumbersNN/Build/Sources/Driver/CMakeFiles/driver.dir

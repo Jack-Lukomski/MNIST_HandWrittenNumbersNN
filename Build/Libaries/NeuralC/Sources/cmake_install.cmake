@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/handwritten_numbers_nn")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/NeuralC")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,7 +40,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("C:/Users/jtluk/GitHub/MNIST_HandWrittenNumbersNN/Build/Libaries/NeuralC/Sources/Modules/cmake_install.cmake")
-  include("C:/Users/jtluk/GitHub/MNIST_HandWrittenNumbersNN/Build/Libaries/NeuralC/Sources/ExampleMain/cmake_install.cmake")
 
 endif()
 

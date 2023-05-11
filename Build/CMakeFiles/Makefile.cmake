@@ -31,7 +31,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Users/jtluk/GitHub/MNIST_HandWrittenNumbersNN/Libaries/CMakeLists.txt"
   "C:/Users/jtluk/GitHub/MNIST_HandWrittenNumbersNN/Libaries/NeuralC/CMakeLists.txt"
   "C:/Users/jtluk/GitHub/MNIST_HandWrittenNumbersNN/Libaries/NeuralC/Sources/CMakeLists.txt"
-  "C:/Users/jtluk/GitHub/MNIST_HandWrittenNumbersNN/Libaries/NeuralC/Sources/ExampleMain/CMakeLists.txt"
   "C:/Users/jtluk/GitHub/MNIST_HandWrittenNumbersNN/Libaries/NeuralC/Sources/Modules/ActivationFunctions/CMakeLists.txt"
   "C:/Users/jtluk/GitHub/MNIST_HandWrittenNumbersNN/Libaries/NeuralC/Sources/Modules/CMakeLists.txt"
   "C:/Users/jtluk/GitHub/MNIST_HandWrittenNumbersNN/Libaries/NeuralC/Sources/Modules/LayerCreation/CMakeLists.txt"
@@ -58,7 +57,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "Libaries/NeuralC/Sources/Modules/NeuralNetwork/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Libaries/NeuralC/Sources/Modules/ActivationFunctions/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Libaries/NeuralC/Sources/Modules/LayerCreation/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Libaries/NeuralC/Sources/ExampleMain/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Sources/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Sources/Driver/CMakeFiles/CMakeDirectoryInformation.cmake"
   )

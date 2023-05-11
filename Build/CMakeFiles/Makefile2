@@ -111,33 +111,15 @@ Libaries/NeuralC/clean: Libaries/NeuralC/Sources/clean
 
 # Recursive "all" directory target.
 Libaries/NeuralC/Sources/all: Libaries/NeuralC/Sources/Modules/all
-Libaries/NeuralC/Sources/all: Libaries/NeuralC/Sources/ExampleMain/all
 .PHONY : Libaries/NeuralC/Sources/all
 
 # Recursive "preinstall" directory target.
 Libaries/NeuralC/Sources/preinstall: Libaries/NeuralC/Sources/Modules/preinstall
-Libaries/NeuralC/Sources/preinstall: Libaries/NeuralC/Sources/ExampleMain/preinstall
 .PHONY : Libaries/NeuralC/Sources/preinstall
 
 # Recursive "clean" directory target.
 Libaries/NeuralC/Sources/clean: Libaries/NeuralC/Sources/Modules/clean
-Libaries/NeuralC/Sources/clean: Libaries/NeuralC/Sources/ExampleMain/clean
 .PHONY : Libaries/NeuralC/Sources/clean
-
-#=============================================================================
-# Directory level rules for directory Libaries/NeuralC/Sources/ExampleMain
-
-# Recursive "all" directory target.
-Libaries/NeuralC/Sources/ExampleMain/all:
-.PHONY : Libaries/NeuralC/Sources/ExampleMain/all
-
-# Recursive "preinstall" directory target.
-Libaries/NeuralC/Sources/ExampleMain/preinstall:
-.PHONY : Libaries/NeuralC/Sources/ExampleMain/preinstall
-
-# Recursive "clean" directory target.
-Libaries/NeuralC/Sources/ExampleMain/clean:
-.PHONY : Libaries/NeuralC/Sources/ExampleMain/clean
 
 #=============================================================================
 # Directory level rules for directory Libaries/NeuralC/Sources/Modules
