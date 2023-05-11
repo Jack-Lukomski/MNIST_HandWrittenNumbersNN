@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/driver.dir/main.c.obj"
-  "driver"
-  "driver.manifest"
+  "CMakeFiles/driver.dir/main.c.obj.d"
+  "driver.exe"
+  "driver.exe.manifest"
   "driver.pdb"
+  "libdriver.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

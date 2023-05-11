@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "matrix.h": "c",
+        "activationfunctions.h": "c",
+        "neuralnetwork.h": "c",
+        "layercreation.h": "c"
+    }
+}

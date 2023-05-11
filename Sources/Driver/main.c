@@ -1,7 +1,7 @@
-#include "../Modules/Matrix/matrix.h"
-#include "../Modules/NeuralNetwork/neuralNetwork.h"
-#include "../Modules/ActivationFunctions/activationFunctions.h"
-#include "../Modules/LayerCreation/layerCreation.h"
+#include "../../Libaries/NeuralC/Sources/Modules/Matrix/matrix.h"
+#include "../../Libaries/NeuralC/Sources/Modules/NeuralNetwork/neuralNetwork.h"
+#include "../../Libaries/NeuralC/Sources/Modules/ActivationFunctions/activationFunctions.h"
+#include "../../Libaries/NeuralC/Sources/Modules/LayerCreation/layerCreation.h"
 #include <stdio.h>
 
 extern Matrix * INPUT_LAYER_WEIGHTS;
