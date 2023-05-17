@@ -13,15 +13,24 @@ extern Matrix * OUTPUT_LAYER_BIASES;
 
 int main (void)
 {
-    // vCreateNNLayerMatricies();
+    vCreateNNLayerMatricies();
 
-    // NerualNetwork * NN = xConstructNeuralNetwork(INPUT_LAYER_WEIGHTS, NUM_HIDDEN_LAYERS, HIDDEN_LAYER_WEIGHTS, HIDDEN_LAYER_BIASES, OUTPUT_LAYER_WEIGHTS, OUTPUT_LAYER_BIASES);
+    NerualNetwork * NN = xConstructNeuralNetwork(INPUT_LAYER_WEIGHTS, NUM_HIDDEN_LAYERS, HIDDEN_LAYER_WEIGHTS, HIDDEN_LAYER_BIASES, OUTPUT_LAYER_WEIGHTS, OUTPUT_LAYER_BIASES);
+    vPrintAllLayers(NN);
+
+    // double data[4] = {1, 2, 3, 4};
+
+    // Matrix * test = xCreateMatrix(1, 4, data);
+
+    // vUpdateInputLayerWeights(test);
+    // printf("\n\n\n");
     // vPrintAllLayers(NN);
 
-    FILE * fp = fopen("../../../MNIST_DataSet/train-images.idx3-ubyte", "rb");
+    // FILE * fp = fopen("../../../MNIST_DataSet/train-images.idx3-ubyte", "rb");
 
-    vWriteMnistNumberToCsv(fp, 1236, "../../../test.csv", twoDimensions);
+    // vWriteMnistNumberToCsv(fp, 1236, "../../../test.csv", twoDimensions);
+
+
 
     return 0;
 }
-
