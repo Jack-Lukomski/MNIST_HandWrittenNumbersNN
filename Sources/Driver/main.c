@@ -13,24 +13,33 @@ extern Matrix * OUTPUT_LAYER_BIASES;
 
 int main (void)
 {
-    vCreateNNLayerMatricies();
-
-    NerualNetwork * NN = xConstructNeuralNetwork(INPUT_LAYER_WEIGHTS, NUM_HIDDEN_LAYERS, HIDDEN_LAYER_WEIGHTS, HIDDEN_LAYER_BIASES, OUTPUT_LAYER_WEIGHTS, OUTPUT_LAYER_BIASES);
-    vPrintAllLayers(NN);
-
-    // double data[4] = {1, 2, 3, 4};
-
-    // Matrix * test = xCreateMatrix(1, 4, data);
-
-    // vUpdateInputLayerWeights(test);
-    // printf("\n\n\n");
+    // vCreateNNLayerMatricies();
+    // NerualNetwork * NN = xConstructNeuralNetwork(INPUT_LAYER_WEIGHTS, NUM_HIDDEN_LAYERS, HIDDEN_LAYER_WEIGHTS, HIDDEN_LAYER_BIASES, OUTPUT_LAYER_WEIGHTS, OUTPUT_LAYER_BIASES);
     // vPrintAllLayers(NN);
 
-    // FILE * fp = fopen("../../../MNIST_DataSet/train-images.idx3-ubyte", "rb");
+    // Matrix * op = xForwardPropagation(NN, Sigmoid);
+    // vPrintMatrix(op);
+    FILE * fp = fopen("../../../MNIST_DataSet/train-images.idx3-ubyte", "rb");
+    vWriteMnistNumberToCsv(fp, 1, "../../../test.csv", oneDimension);
 
-    // vWriteMnistNumberToCsv(fp, 1236, "../../../test.csv", twoDimensions);
+    // double t1[9] = {
+    //     1, 2, 3,
+    //     3, 67, 32,
+    //     34, 99, 23
+    // };
 
+    // double t2[9] = {
+    //     13, 276, 33,
+    //     33, 674, 362,
+    //     34, 993, 223
+    // };
 
+    // Matrix * m1 = xCreateMatrix(3, 3, t1);
+    // Matrix * m2 = xCreateMatrix(3, 3, t2);
+
+    // Matrix * dif = xMatrixSquareEachElement(m1);
+
+    // vPrintMatrix(dif);
 
     return 0;
 }

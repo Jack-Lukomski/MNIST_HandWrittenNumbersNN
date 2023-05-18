@@ -17,6 +17,7 @@ void vWriteMnistNumberToCsv (FILE * idx3_ubyte_filePtr, uint16_t numberIndex, ch
 {
     FILE * newCsvFile_ptr = fopen(outputPath, "w");
     uint16_t pixel;
+    double normalizedPixel;
     uint8_t data[28 * 28];
 
     fseek(idx3_ubyte_filePtr, FILE_HEADER_BYTE_LEN + (numberIndex * NUM_RESOLUTION), SEEK_SET);
@@ -32,7 +33,7 @@ void vWriteMnistNumberToCsv (FILE * idx3_ubyte_filePtr, uint16_t numberIndex, ch
         for (uint16_t currCol = 0; currCol < COL_RES; currCol++)
         {
             fread(&pixel, sizeof(uint8_t), 1, idx3_ubyte_filePtr);
-            fprintf(newCsvFile_ptr, "%u,", pixel);
+            fprintf(newCsvFile_ptr, "%f,", normalizedPixel);
         }
         
         if (dimensionOption == twoDimensions)
